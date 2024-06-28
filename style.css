@@ -11,6 +11,11 @@ body{
 .thank{
     display:none;
 }
+.thango{
+    width: 25%;
+    max-width: 100%;
+    max-height: 100%;
+}
 .langs{
     width: 45%;
     margin: 0% 27.5%;
@@ -36,6 +41,9 @@ li{
 }
 .container{
     margin:0% 5%;
+}
+.odin{
+    width:60%;
 }
 .navbar-con{
     display: flex;
@@ -97,7 +105,4 @@ a{
     border-radius: 0%;
     border-color: white;
     background-color: white;
-}
-.thango .odin{
-    height: 15%;
 }
