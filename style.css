@@ -1,10 +1,11 @@
 @media(min-width:1024px){
 
     body{
-        background-image: url(assets/Fullscreen.jpg);
+        background-image: url(assets/BG.jpg);
         background-size: 100%;
         color: white;
         overflow-y: hidden;
+        overflow-x: hidden;
         min-width: 100%;
         min-height: 100%;
         font-size: 150%
@@ -16,7 +17,7 @@
     border-color: rgba(0,0,0,0);
     }
     .three6zero{
-    width: 10%;
+    width: 13%;
     margin: 0% 27.5%;
     }
     .langs{
@@ -27,7 +28,7 @@
 
 @media(max-width:600px){
     body{
-        background-image: url(assets/mobile.jpg);
+        background-image: url(assets/BG.jpg);
         background-size: 100%;
         color: white;
         overflow-y: hidden;
@@ -77,9 +78,16 @@
   max-height: 550px;
 }
 
-.proj,.skills, .contact, .about, .future{
+.skills, .contact, .about, .future{
     margin: 5% 0% 2% 0%;
     text-align: center;
+    background-color: #302f2f;
+}
+.skills{
+    margin: 5% 5% 2% 5%;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #737373;
 }
 h2, h1{
     text-align: center;
@@ -94,10 +102,17 @@ li{
     justify-content: center;
 }
 .proj{
-    margin:5% 0% 0% 0%;
+    margin:0%;
 }
 .container{
     margin:0% 5%;
+}
+.about{
+    margin-right: 5%;
+    margin-left: 5%;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #737373;
 }
 .odin{
     width:60%;
@@ -105,36 +120,20 @@ li{
 .navbar-con{
     display: flex;
     justify-content: space-around;
-    margin: 9% 0% 0% 0%;
-}
-.navbar-con2{
-    display: flex;
-    justify-content: space-around;
-    margin: -1% 0% 0% 0%;
-    padding: 0% 0% 0% 0%;
-    position: relative;
-}
-.navbar-con4{
-    display: flex;
-    justify-content: space-around;
-    margin: 5.4% 0% 0% 0%;
-}
-.navbar-con5{
-    display: flex;
-    justify-content: space-around;
-    margin: 4.8% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
 }
 .collage{
-    width: 20%;
+    width: 22.5%;
 }
 .me{
     height: 60vh;
 }
 .info{
-    margin:0% 10% 5.5% 10%;
+    margin:0% 10% 0% 10%;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #302f2f;
 }
 button{
     font-size: 115%;
@@ -142,17 +141,11 @@ button{
     border-color: #0CC0DF;
     background-color: #5ae7ff;
 }
-.about{
-    position: absolute;
-}
 a{
     text-decoration: none;
 }
 .future{
     margin: 4.5% 0% .5% 3%;
-}
-.about{
-    margin: 3.75% 0% 2% 0%;
 }
 .submit{
     border-radius: 0%;
