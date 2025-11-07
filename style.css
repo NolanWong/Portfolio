@@ -8,13 +8,16 @@
         overflow-x: hidden;
         min-width: 100%;
         min-height: 100%;
-        font-size: 150%
+        font-size: 150%;
+        margin: 8px;
     }
     .nav-icon button {
     width: 300px;
     height: 70px;
     background-color: rgba(0,0,0,0);
     border-color: rgba(0,0,0,0);
+    background-image: url(assets/holoBTN.png);
+    font-family: Arial, Helvetica, sans-serif;
     }
     .three6zero{
     width: 13%;
@@ -113,6 +116,22 @@ li{
     border-style: solid;
     border-width: 15px;
     border-color: #737373;
+}
+.contact{
+    border-style: solid;
+    border-width: 15px;
+    border-color: #737373;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 15%;
+}
+.screen{
+    margin: 5% 5% 2% 5%;
+    background-color: #302f2f;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #737373;
+    padding-bottom: 6%;
 }
 .odin{
     width:60%;
